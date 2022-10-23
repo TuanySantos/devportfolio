@@ -91,19 +91,16 @@ h1 {
  margin: 10px 10px 10px 10px;
 }
 
-#phone-map {
- display:inline-flex ;
- justify-content: center;
- align-items: center;
- text-align: left;
- margin-top: 50px;
-}
-
 .portfolio {
  display: inline-flex;
  justify-content: center;
 
 }
+
+#contato {
+    justify-content: center;
+   
+   }
 
 .map-responsive{
     overflow:hidden;
@@ -116,7 +113,7 @@ h1 {
 }
 
 #contato ul {
- margin-top: 90px;
+ margin-top: 90px;  
 }
 #contato ul i{
  text-decoration: none;
@@ -125,11 +122,15 @@ h1 {
  margin: 10px 10px 10px 10px;
  color:rgba(240, 248, 255, 0.955);
 }
+#contato .container p a {
+    text-decoration: none;
+    color:rgba(240, 248, 255, 0.955);
+}
 
 .rodape{
     width: 100%;
     height: 100px;
-    position: absolute;
+    position: relative;[]
     bottom: 0;
     left: 0;
     font-size: 0.5em;
