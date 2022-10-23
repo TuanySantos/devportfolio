@@ -38,23 +38,23 @@ h1 {
  font-size: 6em;
  /* font-size: 70px; */
 }
-.box {
+#box {
  background-image: url("../image/background-home.png");
- background-position: center center;
+ position: relative;
  background-repeat: no-repeat;
- background-size: cover;
- padding:50px 50px;
  align-items: center;
- display: inline-table;
- justify-content: center;
+ background-size: cover;
+ background-position: center;
+ display: flex;
+ flex-direction: column;
  height: 100%;
  width: 100%;
 }
-.box ul li {
+#box ul li {
  display: inline;
 }
 
-.box ul li a { 
+#box ul li a { 
  text-decoration: none;
  color:rgba(240, 248, 255, 0.955);
 }
@@ -65,7 +65,7 @@ h1 {
  padding: 10px 10px 10px 10px;
 }
 
-.perfil {
+.perfil{
  display: flex;
  align-items: center;
 }
@@ -73,18 +73,44 @@ h1 {
  width: 300px;
  height: 300px;
  border-radius: 15px;
- margin-right: 200px;
- margin-left: 50px;
+ align-items: center;
+ /* margin-right: 200px; */
+ /* margin-left: 50px; */
 }
 
 .perfil p {
  text-align: justify;
- margin-right: 100px;
- margin-left: 200px;
+}
 
+#phone-map {
+ display:inline-flex ;
+ justify-content: center;
+ align-items: center;
+ text-align: left;
+ margin-top: 50px;
+}
 
+.tech{
+ height: 10px;
+ width: 10px;
+}
+
+.portfolio {
+ display: inline-flex;
+ justify-content: center;
 
 }
+
+.map-responsive{
+    overflow:hidden;
+    height: 200%;
+}
+
+.map-responsive iframe{
+    left:0;
+    top:0;
+}
+
 #contato ul {
  margin-top: 90px;
 }
@@ -94,27 +120,4 @@ h1 {
  padding: 5px 5px 5px 5px;
  margin: 10px 10px 10px 10px;
  color:rgba(240, 248, 255, 0.955);
-}
-
-
-
-.phone-map {
- display:inline-flex ;
- justify-content: center;
- align-items: center;
- text-align: left;
- margin-top: 50px;
-}
-.mapa {
- margin-left: 250px;
-}
-
-.tech{
- height: 10px;
- width: 10px;
-}
-
-.container-port {
- display: inline-table;
- justify-content: center;
 }
